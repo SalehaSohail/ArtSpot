@@ -176,6 +176,8 @@ header{
     font-family: var(--Playfair);
 }
 
+
+
 /* blog */
 .blog{
     background: #f9f9f9;
@@ -224,13 +226,64 @@ header{
     color: var(--dark);
     display: inline-block;
     background: var(--dark);
-    color: #fff;
     padding: 0.55rem 1.2rem;
     transition: all 0.5s ease;
 }
 .blog-text a:hover{
     background: var(--exDark);
+    text-decoration: underline;
 }
+
+/* info page styles */
+.infoPage-container{
+    display: flex;
+    align-items: center;
+}
+.image-container{
+    padding: 40px;
+    flex:1;
+    width: 50%;
+    height:600px;
+}
+.image-container img{
+    box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.75);
+}
+
+.text-container{
+    flex:1;
+    width: 50%;
+    padding:40px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-content: center;
+}
+.text-container h2{
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+    align-self: center;
+    padding-bottom: 30px;
+}
+.text-container p{
+
+    /* padding: 1rem; */
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+
+    /* text-align: center; */
+    /* width: 70%; */
+    /* margin: 0 auto;     */
+}
+
+.text-container p ul{
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
 
 /* about */
 .about{
