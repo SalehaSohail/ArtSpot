@@ -1,6 +1,9 @@
 body {
-    background-color: #344a72;
-    font-family: "Roboto", sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfiQiXJb2Pxt6qATYlt3ckbuLQpN4US4kramPTsnoKcwZUMcZSh-AoEAWSdyoA67QeZw&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
   }
   
   .signup-box {
@@ -14,7 +17,7 @@ body {
   .login-box {
     width: 360px;
     height: 280px;
-    margin: auto;
+    margin:auto;
     border-radius: 3px;
     background-color: white;
   }
@@ -52,7 +55,7 @@ body {
     height: 35px;
     margin-top: 20px;
     border: none;
-    background-color: #49c1a2;
+    background-color: #cb416b;
     color: white;
     font-size: 18px;
   }
@@ -68,5 +71,5 @@ body {
     margin-top: -10px;
   }
   .para-2 a {
-    color: #49c1a2;
+    color: #cb416b;
   }
